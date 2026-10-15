@@ -1,0 +1,51 @@
+---
+title: Big pics, little words
+description: Explain the current subject in HTML with large visuals and minimal text while preserving key details.
+---
+
+[`big-pics-little-words`](https://github.com/plannotator/effective-html/blob/main/skills/big-pics-little-words/SKILL.md)
+asks your agent to explain what you are discussing through large visuals and
+short, plain explanations. Keep the key details; use real-world pictures, icons,
+and other visuals when they help explain the subject.
+
+The skill is an exact copy of
+[the original in bro](https://github.com/backnotprop/bro/blob/main/skills/big-pics-little-words/SKILL.md).
+Invoke it directly when you want to see an explanation of the current discussion.
+
+## Install and use
+
+```bash
+npx skills add plannotator/effective-html --skill big-pics-little-words
+```
+
+Once installed, ask your agent:
+
+```text
+Use big-pics-little-words to help me understand what we are discussing.
+```
+
+## Copy the canonical skill
+
+Save the block below as `skills/big-pics-little-words/SKILL.md` in a repository
+or agent skill directory. Its content matches the repository source exactly.
+
+````md title="skills/big-pics-little-words/SKILL.md"
+---
+name: big-pics-little-words
+description: >-
+  Explain the current subject in HTML with large visuals and minimal text
+  while preserving key details. 
+disable-model-invocation: true
+---
+
+
+Use HTML to help me understand what we're discussing. Show me with big pictures and little words without witholding key details. 
+Use your own taste, avoid lazy design, integrate real-world pictures/icons/visuals as needed but only selectively when it makes sense.
+When you do use prose/detail: Be clear, concise/terse, and avoid jargon. Explain things as if the viewer is new here.
+````
+
+<GuideNext
+  href="/docs/designing-artifacts"
+  title="Designing artifacts"
+  description="Choose a visual direction that fits the subject."
+/>

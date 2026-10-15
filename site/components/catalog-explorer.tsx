@@ -557,7 +557,7 @@ export function CatalogExplorer() {
             <header className={styles.sectionIntro}>
               <h2>The methods behind the artifacts.</h2>
               <p>
-                Six focused skills turn a broad request into an artifact with
+                {catalogSkills.length} focused skills turn a broad request into an artifact with
                 the right fidelity, behavior, and verification boundary.
               </p>
             </header>

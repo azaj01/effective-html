@@ -2,6 +2,7 @@
   "name": "plannotator-effective-html",
   "skills": [
     "./skills/html",
+    "./skills/big-pics-little-words",
     "./skills/design-artifact",
     "./skills/html-wireframe",
     "./skills/html-prototype",

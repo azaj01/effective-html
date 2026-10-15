@@ -672,6 +672,15 @@ export const catalogSkills: CatalogSkill[] = [
     color: "cobalt",
   },
   {
+    id: "big-pics-little-words",
+    title: "Big pics, little words",
+    description:
+      "Explain the current subject in HTML with large visuals and minimal text while preserving key details.",
+    guideUrl: "/docs/big-pics-little-words",
+    sourceUrl: `${repoSource}/big-pics-little-words/SKILL.md`,
+    color: "coral",
+  },
+  {
     id: "design-artifact",
     title: "Design artifact",
     description:
